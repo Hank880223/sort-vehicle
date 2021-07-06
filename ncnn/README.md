@@ -21,3 +21,11 @@ move install/ include and lib folder to ncnn-sort-vehicle folder
     $ . /opt/bsp-5.4.70-2.3.3/environment-setup-aarch64-poky-linux
     $ cmake ..
     $ make -j`nproc`
+
+## Run
+Use video
+
+    $ ./tracking 0
+Use webcam
+
+    $ ./tracking 1
