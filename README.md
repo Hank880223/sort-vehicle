@@ -80,7 +80,13 @@ Add command to `<Yocto Project>/buildxwayland/conf/local.conf`
 BSP compiler :
     
     $ bitbake imx-image-full
+
+Build SDK :
     
+    $ bitbake imx-image-full -c populate_sdk
+    $ ./<Yocto Project>/buildxwayland/tmp/deploy/sdk/fsl-imx-xwayland-glibc-x86_64-imx-image-full-aarch64-imx8mpevk-toolchain-5.4-zeus.sh
+
+
 ## Cross compile ncnn with i.MX8M Plus for aarch64
     $ git clone https://github.com/Tencent/ncnn.git
     $ cd ncnn
@@ -104,3 +110,5 @@ move install/ include and lib folder to ncnn-sort-vehicle folder
     $ . /opt/bsp-5.4.70-2.3.3/environment-setup-aarch64-poky-linux
     $ cmake ..
     $ make -j`nproc`
+
+## How to use 
