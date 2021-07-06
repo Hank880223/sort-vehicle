@@ -1,5 +1,5 @@
 # ncnn-sort-vehicle
-## Build i.mx8m plus bsp
+## Build i.MX8M Plus BSP
 It is recommended that your computer hard disk capacity is greater than 200G
 
 Install the required dependencies :
@@ -38,7 +38,7 @@ Confirm java version is 1.8.0_191
 Git account settings :
     
     $ git config --global user.name "user name"
-    $ git config --global user.email user.name@wpi-group.com
+    $ git config --global user.email user.name@your-group.com
     
 Repo environmental settings :
 
@@ -73,7 +73,7 @@ Choose your i.MX8 MACHINE
 
 local.conf setting :
 
-add command to <Yocto Project>/buildxwayland/conf/local.conf
+Add command to `<Yocto Project>/buildxwayland/conf/local.conf`
 
     $ IMAGE_INSTALL_append = "packagegroup-imx-ml"
     
@@ -81,7 +81,7 @@ BSP compiler :
     
     $ bitbake imx-image-full
     
-## Cross compile ncnn with i.mx8m plus for aarch64
+## Cross compile ncnn with i.MX8M Plus for aarch64
     $ git clone https://github.com/Tencent/ncnn.git
     $ cd ncnn
     $ git submodule update --init
@@ -90,4 +90,17 @@ BSP compiler :
     $ cmake ..
     $ make -j`nproc` && make install
     
-
+move install/ include and lib folder to ncnn-sort-vehicle folder
+```
+└─ncnn-sort-vehicle
+    ├─include
+    │  └─ncnn
+    ├─lib
+    └─src
+```    
+    
+## Build ncnn-sort-vehicle
+    $ mkdir build && cd build
+    $ . /opt/bsp-5.4.70-2.3.3/environment-setup-aarch64-poky-linux
+    $ cmake ..
+    $ make -j`nproc`
