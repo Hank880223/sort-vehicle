@@ -1,6 +1,7 @@
 # ncnn-sort-vehicle
-## How to build i.MX8M Plus BSP
+## Build i.MX8M Plus BSP
 
+[BSP](https://github.com/Hank880223/ncnn-sort-vehicle/blob/main/doc/BSP.md)
 
 ## Cross compile ncnn with i.MX8M Plus for aarch64
     $ git clone https://github.com/Tencent/ncnn.git
