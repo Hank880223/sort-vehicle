@@ -1,7 +1,11 @@
-# ncnn-sort-vehicle
+# sort-vehicle
 ## Build i.MX8M Plus BSP
 
-[BSP](https://github.com/Hank880223/ncnn-sort-vehicle/blob/main/doc/BSP.md)
+* [BSP](https://github.com/Hank880223/ncnn-sort-vehicle/blob/main/doc/BSP.md)
+
+## Supported neural network inference calculation framework
+* NCNN
+* Tengine
 
 ## Cross compile ncnn with i.MX8M Plus for aarch64
     $ git clone https://github.com/Tencent/ncnn.git
