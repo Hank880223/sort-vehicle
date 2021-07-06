@@ -12,7 +12,9 @@ move install/ include and lib folder to ncnn-sort-vehicle folder
 └─ncnn-sort-vehicle
     ├─include
     │  └─ncnn
+    │  │  └─include
     ├─lib
+    │  └─libncnn.a
     └─src
 ```    
     
