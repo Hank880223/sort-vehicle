@@ -4,7 +4,7 @@
 * [BSP](https://github.com/Hank880223/ncnn-sort-vehicle/blob/main/doc/BSP.md)
 
 ## Supported neural network inference calculation framework
-* NCNN
-* Tengine
+* [NCNN](https://github.com/Hank880223/sort-vehicle/tree/main/ncnn)
+* [Tengine](https://github.com/Hank880223/sort-vehicle/tree/main/Tengine)
 
 ## How to use 
