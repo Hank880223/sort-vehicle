@@ -24,6 +24,15 @@ move install/ include and lib folder to ncnn-sort-vehicle folder
     $ make -j`nproc`
 
 ## Run
+
+```
+└─folder
+    ├─models
+    │   ├─yolov3-tiny_obj_opt.param
+    │   └─yolov3-tiny_obj_opt.bin
+    └─tracking
+```  
+
 Use video (Not yet supported)
 
     $ ./tracking 0
