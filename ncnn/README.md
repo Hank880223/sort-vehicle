@@ -24,7 +24,7 @@ move install/ include and lib folder to ncnn-sort-vehicle folder
     $ make -j`nproc`
 
 ## Run
-Use video
+Use video (Not yet supported)
 
     $ ./tracking 0
 Use webcam
