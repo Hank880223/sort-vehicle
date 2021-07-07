@@ -7,4 +7,3 @@
 * [NCNN](https://github.com/Hank880223/sort-vehicle/tree/main/ncnn)
 * [Tengine](https://github.com/Hank880223/sort-vehicle/tree/main/Tengine)
 
-## How to use 
