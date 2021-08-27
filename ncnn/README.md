@@ -26,7 +26,7 @@ move install/ include and lib folder to ncnn-sort-vehicle folder
 ## Run
 
 ```
-└─folder
+└─own folder
     ├─models
     │   ├─yolov3-tiny_obj_opt.param
     │   └─yolov3-tiny_obj_opt.bin
