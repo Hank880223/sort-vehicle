@@ -1,5 +1,5 @@
 # Build i.MX8M Plus BSP
-It is recommended that your computer hard disk capacity is greater than 200G
+It is recommended that your computer hard disk capacity is greater than 500G
 
 Install the required dependencies :
     
