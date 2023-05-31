@@ -48,12 +48,12 @@ Repo environmental settings :
     $ export PATH=~/bin:$PATH
     $ mkdir <Yocto Project>
     $ cd <Yocto Project>
-    $ repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-zeus -m imx-5.4.70-2.3.3.xml
+    $ repo init -u https://github.com/nxp-imx/imx-manifest  -b imx-linux-hardknott -m imx-5.10.72-2.2.3.xml
     $ repo sync
     
 BSP version can inquired from here 
 
-<https://source.codeaurora.org/external/imx/imx-manifest/log/?h=imx-linux-zeus>
+<[https://source.codeaurora.org/external/imx/imx-manifest/log/?h=imx-linux-zeus](https://github.com/nxp-imx/imx-manifest/tree/imx-linux-hardknott)>
 
 BSP environment settings :
 
